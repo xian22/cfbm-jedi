@@ -1,0 +1,11 @@
+geometry:
+  nx: 200
+  ny: 200
+  dx: 30.0
+  dy: 30.0
+
+# These sections are required by the generic TestGeometry harness
+# even if we aren't using them yet.
+geometryTest:
+  # This tests the copy constructor
+  testCopy: true
